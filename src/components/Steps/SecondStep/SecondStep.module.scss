@@ -1,0 +1,74 @@
+.fieldWrap {
+	max-width: 336px;
+	margin-bottom: 8px;
+}
+
+.fieldsRow {
+	display: flex;
+	align-items: center;
+}
+.addBtn {
+	width: 44px;
+	height: 44px;
+	border-radius: 4px;
+	border: 1.5px solid #5558fa;
+	color: #5558fa;
+	font-size: 20px;
+	background: transparent;
+	cursor: pointer;
+}
+
+.removeBtn {
+	background: transparent;
+	border: none;
+	cursor: pointer;
+}
+
+.input {
+	max-width: 300px;
+	width: 100%;
+	border-radius: 4px;
+	border: 1px solid rgba(0, 0, 0, 0.16);
+	background: #fff;
+	outline: none;
+	height: 44px;
+	color: rgba(0, 0, 0, 0.48);
+	padding: 0 12px;
+	margin-right: 12px;
+	&::placeholder {
+		color: rgba(0, 0, 0, 0.48);
+	}
+}
+.benefits {
+	margin-bottom: 24px;
+}
+.benefitsTitle {
+	font-weight: 500;
+	margin-bottom: 8px;
+}
+.errorField {
+	color: red;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.radioItems {
+	display: flex;
+	flex-direction: column;
+	row-gap: 4px;
+}
+.radioItem {
+	display: flex;
+	align-items: center;
+	column-gap: 10px;
+
+	& input {
+		width: 16px;
+		height: 16px;
+		margin: 0;
+		cursor: pointer;
+	}
+}
+.radioTitle {
+	font-weight: 500;
+}

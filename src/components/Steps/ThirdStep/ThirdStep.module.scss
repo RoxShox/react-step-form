@@ -1,0 +1,37 @@
+.formTextarea {
+	width: 100%;
+	min-height: 84px;
+	resize: none;
+	border-radius: 4px;
+	border: 1px solid rgba(0, 0, 0, 0.16);
+	color: rgba(0, 0, 0, 0.48);
+	font-size: 14px;
+	font-weight: 400;
+	outline: none;
+	padding: 12px;
+	&::placeholder {
+		color: rgba(0, 0, 0, 0.48);
+		font-size: 14px;
+		font-weight: 400;
+	}
+}
+.textareaTitle {
+	font-weight: 500;
+	display: inline-block;
+	margin-bottom: 8px;
+}
+
+.decorWrap {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 8px;
+}
+.decorCountWord {
+	font-weight: 700;
+}
+
+.error {
+	color: red;
+	text-align: center;
+	padding-top: 15px;
+}
