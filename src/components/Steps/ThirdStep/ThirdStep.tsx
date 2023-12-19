@@ -9,7 +9,7 @@ const ThirdStep = () => {
 		formState: { errors },
 	} = useFormContext()
 	const textareaWatch = watch("about")
-	console.log(errors)
+
 	return (
 		<>
 			<label>
